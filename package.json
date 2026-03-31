@@ -44,12 +44,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArkanisCorporation/CitizenId-passport-auth.git"
+    "url": "git+https://github.com/citizenid-space/passport-citizenid.git"
   },
   "bugs": {
-    "url": "https://github.com/ArkanisCorporation/CitizenId-passport-auth/issues"
+    "url": "https://github.com/citizenid-space/passport-citizenid/issues"
   },
-  "homepage": "https://github.com/ArkanisCorporation/CitizenId-passport-auth#readme",
+  "homepage": "https://github.com/citizenid-space/passport-citizenid#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest",

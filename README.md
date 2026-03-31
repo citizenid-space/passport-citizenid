@@ -461,7 +461,7 @@ You can test the authorization flow using the [OAuth 2.0 Debugger](https://oauth
 
 ## Support
 
-For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/ArkanisCorporation/CitizenId-passport-auth).
+For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/citizenid-space/passport-citizenid).
 
 ## Related Resources
 
