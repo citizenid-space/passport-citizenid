@@ -121,8 +121,8 @@ export const RSIClaimKeys = {
     CITIZEN_ID: `${CUSTOM_CLAIM_PREFIX}rsi:citizenId`,
     SPECTRUM_ID: `${CUSTOM_CLAIM_PREFIX}rsi:spectrumId`,
     ORGS: {
-       PRIMARY: `${CUSTOM_CLAIM_PREFIX}rsi:orgs:primary`,
-       PUBLIC: `${CUSTOM_CLAIM_PREFIX}rsi:orgs:public`,
+        PRIMARY: `${CUSTOM_CLAIM_PREFIX}rsi:orgs:primary`,
+        PUBLIC: `${CUSTOM_CLAIM_PREFIX}rsi:orgs:public`,
     }
 } as const;
 
