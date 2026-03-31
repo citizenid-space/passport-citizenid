@@ -18,6 +18,8 @@ export const Scopes = {
     TWITCH_PROFILE: 'twitch.profile',
     DISCORD_PROFILE: 'discord.profile',
     RSI_PROFILE: 'rsi.profile',
+    RSI_ORGS_PRIMARY: 'rsi.orgs.primary',
+    RSI_ORGS_PUBLIC: 'rsi.orgs.public',
 } as const;
 
 /**
@@ -114,9 +116,14 @@ export const DiscordClaimKeys = {
 export const RSIClaimKeys = {
     AVATAR_URL: `${CUSTOM_CLAIM_PREFIX}rsi${AVATAR_URL_SUFFIX}`,
     USERNAME: `${CUSTOM_CLAIM_PREFIX}rsi:username`,
+    DISPLAY_NAME: `${CUSTOM_CLAIM_PREFIX}rsi:displayName`,
     ENLISTED_AT: `${CUSTOM_CLAIM_PREFIX}rsi:enlistedAt`,
     CITIZEN_ID: `${CUSTOM_CLAIM_PREFIX}rsi:citizenId`,
     SPECTRUM_ID: `${CUSTOM_CLAIM_PREFIX}rsi:spectrumId`,
+    ORGS: {
+       PRIMARY: `${CUSTOM_CLAIM_PREFIX}rsi:orgs:primary`,
+       PUBLIC: `${CUSTOM_CLAIM_PREFIX}rsi:orgs:public`,
+    }
 } as const;
 
 /**
