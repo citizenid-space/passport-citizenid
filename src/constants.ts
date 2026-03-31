@@ -150,6 +150,8 @@ export type Role = typeof Roles[keyof typeof Roles];
 /**
  * Legacy role format (for backward compatibility)
  * These are the old format roles that may still appear in tokens
+ *
+ * @deprecated Use `Roles` instead.
  */
 export const LegacyRoles = {
     INTEGRATOR: 'CitizenId.Integrator',
@@ -163,8 +165,12 @@ export const Endpoints = {
     PRODUCTION: {
         AUTHORITY: 'https://citizenid.space',
     },
+    /** @deprecated Use `Endpoints.STAGING` instead. */
     DEVELOPMENT: {
-        AUTHORITY: 'https://dev.citizenid.space',
+        AUTHORITY: 'https://citizenid.dev',
+    },
+    STAGING: {
+        AUTHORITY: 'https://citizenid.dev',
     },
 } as const;
 
